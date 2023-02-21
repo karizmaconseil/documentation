@@ -6,11 +6,18 @@ Ce module permets d'ajouter une couche REST sur Odoo.
 
 
 
-## AUTHENTICATION
+## AUTHENTIFICATION:
 
 * Ce module permet au utilisateur de Se connecter directement via un jeton.
 
-## GET / REQUEST ACCESS TOKEN 
+## REQUEST ACCESS TOKEN EN BACKEND:
+
+* Créer le jeton à partir de la fiche de l'utilisateur, sur la page token.
+
+![img_3.png](img_3.png)
+
+
+## GET / REQUEST ACCESS TOKEN :
 
 * Créer le jeton à partir de la fiche de l'utilisateur, sur la page token.
 
@@ -56,9 +63,9 @@ Postman requêt
 
 ![img_4.png](img_4.png)
 
-## DELETE / SUPPRIMER UN JETON D'ACCÈS
+## DELETE / SUPPRIMER UN JETON D'ACCÈS:
 
-    * Supprimer du jeton existant en fournissant le jeton sur l'en-tête de la requête http 
+* Supprimer du jeton existant en fournissant le jeton sur l'en-tête de la requête http 
     Exemple: url = 127.0.0.1:8016/rest/sky/token, method= DELETE, header={'access_token': 'weoiruoewr234234kjhewfsdf324d'}
 
 Python requêt
@@ -97,13 +104,13 @@ Postman requêt
 NB : Le token dispose par défaut d'une durée d'expiration d'une semaine.
 ![img_5.png](img_5.png)
 
-## CONTRIBUTEURS
+## CONTRIBUTEURS:
 
   * Otman elagy <el.otman@Karizma.ma>
 
   * Assable Polo <p.assable@karizma.ma>
 
-## MAINTENEURS
+## MAINTENEURS:
 
 Ce module est maintenu par le KARIZMA CONSULTING GROUP.
 
