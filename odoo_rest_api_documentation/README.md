@@ -19,10 +19,6 @@ Ce module permets d'ajouter une couche REST sur Odoo.
 
 ## GET / REQUEST ACCESS TOKEN :
 
-* Créer le jeton à partir de la fiche de l'utilisateur, sur la page token.
-
-![img_3.png](img_3.png)
-
 Python requêt
 
 ```python
