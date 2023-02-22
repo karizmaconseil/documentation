@@ -24,7 +24,7 @@ Python requêt
 ```python
 import requests
 
-url = "http://192.168.43.58:8069/rest/sky/token"
+url = "http://127.0.0.1:8016/rest/sky/token"
 
 payload = {
   "db":"REST_TEST",
@@ -55,21 +55,21 @@ La requête ci-dessus renverra une réponse comme ci-dessous.
  "access_token": "access_token_b1a9b81def16537a4099505bc77fe9b415afcfb0"}
 ```
 
-Postman requêt
+Sur Postman
 
 ![img_4.png](img_4.png)
 
 ## DELETE / SUPPRIMER UN JETON D'ACCÈS:
 
-* Supprimer du jeton existant en fournissant le jeton sur l'en-tête de la requête http 
+* Supprimer le jeton existant en fournissant le jeton sur l'en-tête de la requête http 
     Exemple: url = 127.0.0.1:8016/rest/sky/token, method= DELETE, header={'access_token': 'weoiruoewr234234kjhewfsdf324d'}
 
-Python requêt
+Par requête python
 
 ```python
 import requests
 
-url = "http://192.168.43.58:8069/rest/sky/token"
+url = "http://127.0.0.1:8016/rest/sky/token"
 
 payload = {
   "db":"REST_TEST",
