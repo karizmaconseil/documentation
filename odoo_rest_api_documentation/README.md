@@ -10,21 +10,21 @@ Ce module permets d'ajouter une couche REST sur Odoo.
 
 * Ce module permet au utilisateur de Se connecter directement via un jeton.
 
-## REQUEST ACCESS TOKEN EN BACKEND:
+## Récupération de token en backend:
 
 * Créer le jeton à partir de la fiche de l'utilisateur, sur la page token.
 
 ![img_3.png](img_3.png)
 
 
-## GET / REQUEST ACCESS TOKEN :
+## GET / Récupération de token :
 
 Python requêt
 
 ```python
 import requests
 
-url = "http://192.168.43.58:8069/api/auth/token"
+url = "http://192.168.43.58:8069/rest/sky/token"
 
 payload = {
   "db":"REST_TEST",
@@ -69,7 +69,7 @@ Python requêt
 ```python
 import requests
 
-url = "http://192.168.43.58:8069/api/auth/token"
+url = "http://192.168.43.58:8069/rest/sky/token"
 
 payload = {
   "db":"REST_TEST",
@@ -98,7 +98,7 @@ Postman requêt
 ![img_2.png](img_2.png)
 
 NB : Le token dispose par défaut d'une durée d'expiration d'une semaine.
-![img_5.png](img_5.png)
+![img.png](img.png)
 
 ## CONTRIBUTEURS:
 
